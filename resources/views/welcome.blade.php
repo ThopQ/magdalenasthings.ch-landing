@@ -17,20 +17,26 @@
             </div>
 
             <div class="flex justify-center py-4">
-                <h1 class="text-center text-4xl font-semibold lg:text-6xl">Dein neuer Pflanzenshop</h1>
+                <h1 class="text-center text-4xl font-bold tracking-tight text-secondary">
+                    Dein neuer Pflanzenshop entsteht hier
+                </h1>
             </div>
 
-            <div class="flex justify-center py-6">
+            <div class="flex flex-col items-center py-6 text-lg">
+                <p class="mb-4 max-w-lg text-center">
+                    Verwandle auch dein zu Hause in einen Dschungel. In unserem handverlesenen Sortiment findet jeder
+                    seine neue Lieblingspflanze.
+                </p>
                 <p class="max-w-lg text-center">
-                    Finde die perfekten Grünpflanzen und exotischen Raritäten, um deinem Zuhause Leben
-                    einzuhauchen. In unserem handverlesenen Sortiment findet jeder seine Lieblingspflanze.
+                    Registriere dich jetzt um als Erster informiert zu werden wenn unser
+                    Online-Shop für Zimmerpflanzen eröffnet.
                 </p>
             </div>
 
             <div class="flex justify-center py-4">
                 <button type=button
                     class="inline-flex transform rounded-full bg-primary px-6 py-2 font-semibold text-white transition duration-150 ease-in-out sm:px-8 sm:py-4 sm:hover:-translate-y-1 sm:hover:scale-110 sm:active:translate-y-0">
-                    Jetzt anmelden
+                    Jetzt registrieren
                 </button>
             </div>
         </div>
