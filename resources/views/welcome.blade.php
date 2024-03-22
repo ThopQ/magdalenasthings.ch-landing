@@ -9,8 +9,9 @@
     <title>magdalenasthings</title>
 </head>
 
-<body class="min-h-dvh min-w-screen bg-base-100">
-    <div class="absolute bottom-8 left-8 right-8 top-8 overflow-hidden rounded-2xl bg-white shadow-lg">
+<body class="min-h-dvh min-w-screen flex flex-col bg-base-100 p-8">
+    <div
+        class="relative overflow-hidden rounded-2xl bg-white py-12 shadow-lg lg:absolute lg:bottom-8 lg:left-8 lg:right-8 lg:top-8">
         <div class="relative z-10 px-4 sm:px-0">
             <div class="flex justify-center py-6">
                 <img class="size-14 rounded-full object-cover" src="/logo.jpg" alt="Logo" />
