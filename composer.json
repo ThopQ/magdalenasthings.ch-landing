@@ -12,6 +12,7 @@
         "calebporzio/sushi": "^2.5",
         "laravel/framework": "^11.0",
         "laravel/tinker": "^2.9",
+        "livewire/livewire": "^3.4",
         "spatie/laravel-markdown": "^2.5",
         "spatie/yaml-front-matter": "^2.0"
     },
