@@ -47,7 +47,7 @@
             x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100" x-transition:leave="ease-in duration-200"
             x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100"
             x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
-            class="mx-4 w-full max-w-md transform overflow-hidden rounded-xl bg-white shadow-xl transition-all md:max-w-2xl"
+            class="mx-3 w-full max-w-md transform overflow-hidden rounded-xl bg-white shadow-xl transition-all md:max-w-2xl"
             @click.away="open = false" x-cloak>
 
             <!-- Modal content -->
@@ -70,6 +70,14 @@
                                 class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                                 placeholder="deine@email.ch" required />
                         </div>
+
+                        <div class="flex justify-end">
+                            <button type="button"
+                                class="focus:shadow-outline inline-flex items-center justify-center rounded-full bg-neutral-950 px-4 py-2 text-sm font-medium tracking-wide text-white transition-colors duration-200 hover:bg-neutral-900 focus:outline-none focus:ring-2 focus:ring-neutral-900 focus:ring-offset-2">
+                                Jetzt registrieren
+                            </button>
+                        </div>
+
                     </form>
 
 
