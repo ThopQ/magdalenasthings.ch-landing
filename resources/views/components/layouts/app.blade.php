@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
-    <title>{{ $title ?? 'Page Title' }}</title>
+    <title>{{ $title ?? '🌸 Magdalenasthings' }}</title>
 </head>
 
-<body class="min-h-dvh min-w-screen bg-base-100 p-8">
+<body class="min-h-dvh min-w-screen bg-base-100 p-4">
     {{ $slot }}
 </body>
 
