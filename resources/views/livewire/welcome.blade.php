@@ -56,7 +56,7 @@
                     <img src="/modal.webp" alt="Modal Image" class="object-none object-center" loading="lazy">
                 </div>
 
-                <div class="flex-1 p-6">
+                <div class="flex-1 px-6 py-8">
                     <h3 class="mb-2 text-2xl font-semibold text-primary">
                         Registriere dich
                     </h3>
