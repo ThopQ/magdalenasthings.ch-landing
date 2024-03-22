@@ -43,7 +43,7 @@
         </div>
 
 
-        <img src="/gradient-background.svg" alt="background" class="absolute bottom-0 z-0 w-full lg:-mb-24 xl:-mb-36">
+        <img src="/monstera.png" alt="background" class="absolute bottom-0 z-0 w-4/5 -translate-x-56 translate-y-56">
     </div>
 
 
