@@ -1,6 +1,12 @@
 <div x-data="{ open: false }" class="flex flex-col">
     <div
         class="relative overflow-hidden rounded-2xl bg-white pb-56 pt-12 shadow-lg lg:absolute lg:bottom-8 lg:left-8 lg:right-8 lg:top-8 lg:pb-12">
+        <div class="absolute left-4 top-4">
+            <a href="https://instagram.com/magdalenasthings" target="_blank" class="text-secondary">
+                <x-fab-instagram class="size-8" />
+            </a>
+        </div>
+
         <div class="relative z-10 px-4 sm:px-0">
             <div class="flex justify-center py-6">
                 <img class="size-14 rounded-full object-cover" src="/logo.jpg" alt="Logo" />
@@ -41,7 +47,7 @@
         x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0"
         class="fixed inset-0 z-50 flex items-center justify-center overflow-auto bg-primary bg-opacity-50"
         @click.away="open = false" x-cloak>
-        <!-- Modal -->
+
         <div x-show="open" x-transition:enter="ease-out duration-300"
             x-transition:enter-start="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
             x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100" x-transition:leave="ease-in duration-200"
@@ -50,7 +56,6 @@
             class="mx-3 w-full max-w-md transform overflow-hidden rounded-xl bg-white shadow-xl transition-all md:max-w-2xl"
             @click.away="open = false" x-cloak>
 
-            <!-- Modal content -->
             <div class="flex flex-col bg-white md:flex-row">
                 <div class="md:size-72 h-72 w-full overflow-hidden">
                     <img src="/modal.webp" alt="Modal Image" class="object-none object-center" loading="lazy">
@@ -104,13 +109,6 @@
                             </div>
                         </form>
                     @endif
-
-
-
-
-
-
-
                 </div>
             </div>
         </div>
