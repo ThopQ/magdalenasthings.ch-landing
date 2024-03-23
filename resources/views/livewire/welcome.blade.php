@@ -58,7 +58,7 @@
 
             <div class="flex flex-col bg-white md:flex-row">
                 <div class="md:size-72 h-72 w-full overflow-hidden">
-                    <img src="/modal.webp" alt="Modal Image" class="object-none object-center" loading="lazy">
+                    <img src="/modal.webp" alt="Modal Image" class="object-none object-center">
                 </div>
 
                 <div class="flex-1 px-6 py-8">
