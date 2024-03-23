@@ -1,7 +1,7 @@
 <div x-data="{ open: false }" class="flex flex-col">
     <div
         class="relative overflow-hidden rounded-2xl bg-white py-12 shadow-lg lg:absolute lg:bottom-8 lg:left-8 lg:right-8 lg:top-8">
-        <div class="absolute left-8 top-8">
+        <div class="absolute left-8 top-8 z-20">
             <a href="https://instagram.com/magdalenasthings" target="_blank" class="text-secondary">
                 <x-fab-instagram class="size-8" />
             </a>
