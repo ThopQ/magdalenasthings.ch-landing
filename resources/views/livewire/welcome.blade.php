@@ -9,7 +9,7 @@
 
         <div class="relative z-10 px-4 sm:px-0">
             <div class="flex justify-center py-6">
-                <img class="size-14 rounded-full object-cover" src="/logo.jpg" alt="Logo" />
+                <img class="size-20 rounded-full object-cover" src="/logo.jpg" alt="Logo" />
             </div>
 
             <div class="flex justify-center py-4">
