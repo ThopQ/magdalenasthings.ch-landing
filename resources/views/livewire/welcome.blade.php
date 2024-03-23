@@ -39,7 +39,7 @@
         </div>
 
         <img src="/element.webp" alt="Monstera Element"
-            class="absolute bottom-0 right-0 translate-y-64 -rotate-45 sm:max-w-sm md:max-w-md lg:max-w-lg lg:translate-y-24">
+            class="absolute bottom-0 right-0 translate-y-80 -rotate-45 sm:max-w-sm sm:translate-y-64 md:max-w-md lg:max-w-lg lg:translate-y-24">
     </div>
 
     <div x-show="open" x-transition:enter="ease-out duration-300" x-transition:enter-start="opacity-0"
