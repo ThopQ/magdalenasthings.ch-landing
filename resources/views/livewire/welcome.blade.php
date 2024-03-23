@@ -1,6 +1,6 @@
 <div x-data="{ open: false }" class="flex flex-col">
     <div
-        class="relative overflow-hidden rounded-2xl bg-white pb-56 pt-12 shadow-lg lg:absolute lg:bottom-8 lg:left-8 lg:right-8 lg:top-8 lg:pb-12">
+        class="relative overflow-hidden rounded-2xl bg-white py-12 shadow-lg lg:absolute lg:bottom-8 lg:left-8 lg:right-8 lg:top-8">
         <div class="absolute left-8 top-8">
             <a href="https://instagram.com/magdalenasthings" target="_blank" class="text-secondary">
                 <x-fab-instagram class="size-8" />
@@ -37,9 +37,6 @@
                 </button>
             </div>
         </div>
-
-
-        <img src="/element-monstera.png" alt="background" class="absolute bottom-0 z-0 w-1/3 md:w-56 lg:w-96">
     </div>
 
     <div x-show="open" x-transition:enter="ease-out duration-300" x-transition:enter-start="opacity-0"
