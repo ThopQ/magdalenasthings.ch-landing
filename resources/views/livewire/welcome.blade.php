@@ -1,6 +1,6 @@
 <div x-data="{ open: false }" class="flex flex-col">
     <div
-        class="relative overflow-hidden rounded-2xl bg-white py-12 shadow-lg lg:absolute lg:bottom-8 lg:left-8 lg:right-8 lg:top-8">
+        class="relative overflow-hidden rounded-2xl bg-white pb-24 pt-12 shadow-lg lg:absolute lg:bottom-8 lg:left-8 lg:right-8 lg:top-8 lg:pb-12">
         <div class="absolute left-8 top-8 z-20">
             <a href="https://instagram.com/magdalenasthings" target="_blank" class="text-secondary">
                 <x-fab-instagram class="size-8" />
@@ -39,7 +39,7 @@
         </div>
 
         <img src="/element.webp" alt="Monstera Element"
-            class="absolute bottom-0 right-0 translate-y-80 -rotate-45 sm:max-w-sm sm:translate-y-64 md:max-w-md lg:max-w-lg lg:translate-y-24">
+            class="absolute bottom-0 right-0 max-w-xs translate-y-36 -rotate-45 sm:max-w-sm sm:translate-y-60 md:max-w-md lg:translate-y-24">
     </div>
 
     <div x-show="open" x-transition:enter="ease-out duration-300" x-transition:enter-start="opacity-0"
