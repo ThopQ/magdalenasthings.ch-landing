@@ -57,7 +57,7 @@
             @click.away="open = false" x-cloak>
 
             <div class="flex flex-col bg-white md:flex-row">
-                <div class="md:size-72 h-72 w-full overflow-hidden">
+                <div class="md:size-72 h-56 w-full overflow-hidden">
                     <img src="/modal.webp" alt="Modal Image" class="object-none object-center">
                 </div>
 
