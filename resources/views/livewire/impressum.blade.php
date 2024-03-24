@@ -10,7 +10,7 @@
     </div>
 
 
-    <div class="prose">
+    <div class="prose prose-sm">
         @markdown($post['body'])
     </div>
 </div>
