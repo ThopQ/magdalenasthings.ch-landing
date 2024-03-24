@@ -38,8 +38,20 @@
             </div>
         </div>
 
+        <div class="absolute bottom-8 left-8 z-20 hidden sm:block">
+            <a href="{{ route('impressum') }}" wire:navigate.hover class="text-secondary hover:underline">
+                Impressum
+            </a>
+        </div>
+
         <img src="/element.webp" alt="Monstera Element"
             class="absolute bottom-0 right-0 max-w-xs translate-y-36 -rotate-45 sm:max-w-sm sm:translate-y-60 md:max-w-md lg:translate-y-24">
+    </div>
+
+    <div class="relative z-20 flex pt-2 sm:hidden">
+        <a href="{{ route('impressum') }}" wire:navigate.hover class="hover:underline">
+            Impressum
+        </a>
     </div>
 
     <div x-show="open" x-transition:enter="ease-out duration-300" x-transition:enter-start="opacity-0"
