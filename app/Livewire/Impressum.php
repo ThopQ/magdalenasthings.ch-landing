@@ -6,12 +6,13 @@ use App\Models\QuibblerPost;
 use Livewire\Component;
 
 class Impressum extends Component {
-    public string $title;
-    public QuibblerPost $post;
+    public $title;
+    public $post;
 
     public function mount() {
-        $this->title = $this->post->title;
         $this->post = QuibblerPost::where('url', 'impressum')->first();
+
+        $this->title = $this->post->title;
     }
 
     public function render() {

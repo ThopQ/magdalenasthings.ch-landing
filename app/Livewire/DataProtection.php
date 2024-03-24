@@ -6,12 +6,13 @@ use App\Models\QuibblerPost;
 use Livewire\Component;
 
 class DataProtection extends Component {
-    public string $title;
-    public QuibblerPost $post;
+    public $post;
+    public $title;
 
     public function mount() {
-        $this->title = $this->post->title;
         $this->post = QuibblerPost::where('url', 'data-protection')->first();
+
+        $this->title = $this->post->title;
     }
 
     public function render() {
